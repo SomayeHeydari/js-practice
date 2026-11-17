@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="flex justify-center items-center flex-col gap-9 mt-10 font-medium ">
+
+    <h1>Rock Paper Scissors</h1>
+    <div id="choices" class="flex justify-center items-center flex-row gap-9">
+        <button class="bg-blue-400 hover:bg-blue-300 rounded-full w-24 h-24 text-4xl border border-black hover:cursor-pointer"
+         onclick="playGame('rock')">👊</button>
+        <button class="bg-blue-400 hover:bg-blue-300 rounded-full w-24 h-24 text-4xl border border-black hover:cursor-pointer"
+         onclick="playGame('paper')">🤚</button>
+        <button class="bg-blue-400 hover:bg-blue-300 rounded-full w-24 h-24 text-4xl border border-black hover:cursor-pointer"
+         onclick="playGame('scissors')">✌️</button>
+    </div>
+
+    <div id="results">
+        <div id="playerDisplay">Player: </div>
+        <div id="computerDisplay">Computer: </div>
+        <div id="resultDisplay"></div>
+    </div>
+    
+
+
+    <script src="game-rsp.js"></script>
+</body>
+</html>

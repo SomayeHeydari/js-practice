@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//declaration functions
+function sum(a, b , c){
+return a + b + c;
+}
+console.log(sum(2,2,10));
+
+function multiply (x,y){
+return x*y;
+}
+console.log(multiply(3,3));
+
+function division( a,b){
+    return a/b;
+}
+console.log(division(10,2));
+
+
+//expresion functions
+const minus = function (x,y){
+    return x-y;
+}
+console.log(minus(5,3));
+
+const multiplication = function (n1,n2){
+    return n1*n2;
+}
+console.log(multiplication(3,7));
+
+const sum2 = function (a,b,c){
+    return a+b+c;
+}
+console.log(sum2(3,3,8));
+
+
+// array methods
+const food =["pizza","pasta","ashak","hamburger"];
+
+console.log(food[2]);
+
+food.push("meat"); //adds one elements to the list
+console.log(food);
+
+food.pop(); // deletes the last index
+console.log(food);
+const removedFood = food.pop();
+console.log(removedFood);
+
+food.shift(); // deletes the first index
+console.log(food);
+
+food.unshift("eggs"); // adds one element in the first of list
+console.log(food);
+
+console.log(food.toString()); //toString()
+    </script>
+</body>
+</html>
